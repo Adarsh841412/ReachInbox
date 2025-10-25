@@ -1,0 +1,5 @@
+{
+  "name": "Copy of ReachInbox Onebox",
+  "description": "A feature-rich Onebox for emails that synchronizes multiple IMAP email accounts, provides a seamless, searchable experience, and leverages AI for categorization and reply suggestions.",
+  "requestFramePermissions": []
+}

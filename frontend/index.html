@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ReachInbox Onebox</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'reach-dark': '#0f172a',
+              'reach-bg': '#1e293b',
+              'reach-bg-light': '#334155',
+              'reach-border': '#475569',
+              'reach-primary': '#38bdf8',
+              'reach-text': '#e2e8f0',
+              'reach-text-dim': '#94a3b8',
+            },
+          },
+        },
+      }
+    </script>
+  </head>
+  <body class="bg-reach-dark text-reach-text">
+    <div id="root"></div>
+    <script type="module" src="/src/index.jsx"></script>
+  </body>
+</html>
